@@ -10,7 +10,7 @@ export default function Footer({ isDarkMode = false, productTitle = "" }: Footer
     const waText = encodeURIComponent(
         `Assalamualaikum.\nHallo Kak, Apakah Produk ini ${productTitle} masih ada?`
     );
-    const waLink = `https://wa.me/6285756078836?text=${waText}`;
+    const waLink = `https://wa.me/6285356078836?text=${waText}`;
 
     return (
         <div className={`fixed bottom-0 md:sticky md:bottom-0 left-0 w-full border-t p-4 z-50 transition-colors ${isDarkMode ? 'bg-[#1a1a1a] border-[#27272a]' : 'bg-white border-slate-100'}`}>
