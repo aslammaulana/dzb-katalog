@@ -8,7 +8,7 @@ interface FooterProps {
 
 export default function Footer({ isDarkMode = false, productTitle = "" }: FooterProps) {
     const waText = encodeURIComponent(
-        `Assalamualaikum.\nHallo Kak, Apakah Produk ini ${productTitle} masih ada?`
+        `Assalamualaikum.\nHallo Kak, Apakah Produk ${productTitle} masih tersedia?`
     );
     const waLink = `https://wa.me/6285356078836?text=${waText}`;
 
